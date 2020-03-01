@@ -4,9 +4,11 @@ public class Main {
     public static void main(String[] args) {
         CarsFactory factory = new ToyotaFactory();
         factory.createCoupe();
-        factory.createJeep();
+        factory.createCrossover();
+        factory.createSedan();
         factory = new FordFactory();
-        factory.createSedat();
-        factory.createJeep();
+        factory.createSedan();
+        factory.createCrossover();
+        factory.createCoupe();
     }
 }

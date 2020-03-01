@@ -2,7 +2,7 @@ package abstractFactory;
 
 public class ToyotaFactory implements CarsFactory {
     @Override
-    public Sedan createSedat() {
+    public Sedan createSedan() {
         return new ToyotaSedan();
     }
 
@@ -12,7 +12,7 @@ public class ToyotaFactory implements CarsFactory {
     }
 
     @Override
-    public Jeep createJeep() {
-        return new ToyotaJeep();
+    public Crossover createCrossover() {
+        return new ToyotaCrossover();
     }
 }

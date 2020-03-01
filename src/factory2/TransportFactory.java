@@ -11,6 +11,8 @@ public class TransportFactory {
                 return new Ship();
             case AIRPLANE:
                 return new AirPlane();
+            case TRAIN:
+                return new Train();
         }
         return null;
     }

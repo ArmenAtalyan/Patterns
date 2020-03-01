@@ -1,7 +1,7 @@
 package abstractFactory;
 
 public interface CarsFactory {
-    Sedan createSedat();
+    Sedan createSedan();
     Coupe createCoupe();
-    Jeep createJeep();
+    Crossover createCrossover();
 }

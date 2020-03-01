@@ -9,5 +9,7 @@ public class Main {
         t.deliver();
         Transport sh = TransportFactory.createTransport(2);
         sh.deliver();
+        Transport tr = TransportFactory.createTransport(3);
+        tr.deliver();
     }
 }
